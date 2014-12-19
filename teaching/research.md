@@ -491,3 +491,11 @@ Abstract parsing is an important step of the processing of dynamically construct
 languages (such as embedded or dynamic SQL). Existing LALR-based algorithms have performance issues. To increase performance we propose 
 to use a GLR-algorithm as a base for abstract parsing and to reuse graph-structured stack and shared packed parse forest. 
 RNGLR-algorithm modification for abstract parsing is presented.
+
+### [String-embedded language support in integrated development environment](http://dl.acm.org/citation.cfm?id=2687247&CFID=506624759&CFTOKEN=97549049)
+
+Semen Grigorev, Ekaterina Verbitskaia, Andrei Ivanov, Marina Polubelova, Ekaterina Mavchun. Saint Petersburg State University, Russia.
+
+_Central & Eastern European Software Engineering Conference in Russia (CEE-SECR '14) 2014_
+
+Most general-purpose programming languages allow to use string literals as source code in other languages (they are named string-embedded languages). Such strings can be executed or interpreted by dedicated runtime component. This way host program can communicate with DBMS or web browser. The most common example of string-embedded language is Dynamic SQL or SQL embedded into C#, C++, Java or other general-purpose programming languages. Standard Integrated Development Environment functionality such as syntax highlighting or static error checking in embedded languages can help developers who use such technique, but it is necessary to process string literals as a code to provide these features. We present a platform allowing to create tools for string-embedded languages processing easily, and compare it with other similar tools like IntelliLang. We also demonstrate a plug-in for ReSharper created by using the platform. The plug-in provides code highlighting and static error checking for string-embedded T-SQL in C#.
